@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="pref_key_enable_notifications"
+        android:title="Enable Notifications"
+        android:summary="Enable or disable notifications" />
+
+    <EditTextPreference
+        android:key="pref_key_username"
+        android:title="Username"
+        android:summary="Enter your username" />
+
+</PreferenceScreen>
+
